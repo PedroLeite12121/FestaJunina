@@ -1,0 +1,215 @@
+body{
+    font-family: arial;
+    margin: 0;
+    background-size: cover;
+    background-image: url(/images/fundo.png);
+    background-repeat: no-repeat;
+}
+
+
+
+#festajuninatitulo{
+    border-bottom: white 2px solid;
+    margin: 0;
+    background-image: linear-gradient(to top, rgb(255, 189, 102), rgb(255, 214, 79));
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 2px rgb(253, 139, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+   
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 30px;
+}
+
+
+#phead{    
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(44, 43, 43), rgb(74, 74, 74));
+}
+
+.mainp{
+    font-family: tahoma;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+#p1:hover{
+    transition: 0.5s;
+    box-shadow: 0px -3px 0px 0px rgba(255, 255, 255, 0.75) inset;
+}
+
+
+
+#p1{
+    transition: 0.5s;
+    border-bottom: solid 3px black;
+    text-align: center;
+}
+
+#p2{
+    box-shadow: 0px -3px 0px 0px rgba(255, 255, 255, 0.75) inset;
+    text-align: center;
+    border-bottom: solid 3px black;
+}
+.mainp a{
+    text-decoration: none;
+}
+
+
+.mainp p{
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header{
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+
+
+a:hover{
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 3px solid white;
+}
+
+.barracas{
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    height: 500px;
+    margin-top: 20px;
+    border: 3px solid black;
+    background-image: linear-gradient(to top, rgb(3, 150, 255), rgb(49, 61, 227));
+}
+
+.bebidas{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 3px solid black;
+    width: 420px;
+    height: 500px;
+    background-image: linear-gradient(to top, rgb(25, 252, 101), rgb(1, 241, 17));
+}
+
+.brincadeiras{
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    height: 500px;
+    margin-top: 20px;
+    border: 3px solid black;
+    background-image: linear-gradient(to top, rgb(255, 0, 0), rgb(227, 18, 18));
+}
+
+.outros{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 3px solid black;
+    width: 420px;
+    height: 500px;
+    background-image: linear-gradient(to top, rgb(255, 187, 40), rgb(255, 88, 55));
+}
+
+
+
+.conteudo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.itens{
+    margin-top: 200px;
+    box-shadow: 0px 0px 0px 10px wheat inset;
+    border-radius: 40px;
+    font-size: 15px;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+    margin-bottom: 40px;
+    border: black solid 7px;
+    text-align: center;
+    background-color: rgb(235, 182, 117);
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.informacoes{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#card{
+    width: 23%;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.itens h1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid black ;
+    background-color: white;
+    margin-top: 0;
+}
+
+
+
+h2{
+    padding: 5px;
+    width: 86%;
+    border-radius: 10px;
+    margin: 10px;
+    border: rgb(0, 0, 0) 3px solid;
+    background-color: white;
+    transition: 0.5s;
+}
+
+h2:hover{
+    transition: 0.25s;
+    transform: scale(1.1);
+    
+}
+
+#etec{
+    border-radius: 15px;
+    background-color: white;
+    padding: 7px;
+    height: 90px;
+    border: 3px solid black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+
+}
+
+
+

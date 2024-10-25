@@ -1,0 +1,210 @@
+body{
+    font-family: arial;
+    margin: 0;
+    background-size: cover;
+    background-image: url(/images/fundo.png);
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    margin: 0;
+}
+
+
+
+#festajuninatitulo{
+    border-bottom: white 2px solid;
+    background-image: linear-gradient(to top, rgb(255, 189, 102), rgb(255, 214, 79));
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 2px rgb(253, 139, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+   
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7c7c7c;
+    border-radius: 30px;
+}
+  
+
+#phead{
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(44, 43, 43), rgb(74, 74, 74));
+}
+
+.mainp{
+    font-family: tahoma;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#p2:hover{
+    transition: 0.5s;
+    box-shadow: 0px -3px 0px 0px rgba(255, 255, 255, 0.75) inset;
+}
+
+
+#p1{
+    border-bottom: solid 3px black;
+    box-shadow: 0px -3px 0px 0px rgba(255, 255, 255, 0.75) inset;
+    text-align: center;
+}
+
+#p2{
+    transition: 0.5s;
+    border-bottom: solid 3px black;
+    text-align: center;
+}
+
+.mainp a{
+    text-decoration: none;
+}
+
+.header{
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    position: fixed;
+}
+.mainp p{
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.info{
+    margin-top: 150px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 241, 193);
+    border: black solid 7px;
+    text-align: center;
+    width: 95%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topo{
+    text-align: center;
+    font-family: 'arial';
+    font-weight: bold;
+}
+
+
+
+#rua{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    font-size: 30px;
+    margin-top: 0;
+    background-image: linear-gradient(to left, rgb(94, 255, 0), rgb(151, 255, 54));
+}
+
+#horario{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    background-image: linear-gradient(to right, rgb(255, 28, 28), rgb(212, 12, 12));
+}
+
+#data{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid black;
+    font-size: 30px;
+    margin: 0;
+    background-image: linear-gradient(to left, rgb(0, 132, 255), rgb(6, 202, 202));
+}
+
+
+
+.detalhes{
+    padding: 40px 70px 40px 20px;
+    background-color: rgb(255, 194, 120);
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.detalhes1{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 3px solid black;
+    padding: 40px 20px 40px 70px;
+    background-color: rgb(255, 241, 193);
+    justify-content: left;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#detalhep{
+    margin-right: 300px;
+    text-align: left;
+}
+
+#detalhep1{
+    text-align: left;
+    margin-left: 300px;
+}
+
+.classep{
+    
+    font-size:25px;
+    width: 40%;
+    font-weight: bold;
+    height: fit-content;
+    border-radius: 15px;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+#det{
+    object-fit: cover;
+    border: black 3px solid;
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
+#mais{
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: rgb(10, 255, 10);
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+#mais:hover{
+    background-color: rgb(0, 222, 0);;
+    transition: 0.5s;
+    color: white;
+}
+
+
+
+
