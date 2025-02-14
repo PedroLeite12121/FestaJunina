@@ -16,7 +16,7 @@
     margin-bottom: 40px;
     background-color: rgb(255, 241, 193);
     text-align: center;
-    width: 80vw;
+    width: 85vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -77,13 +77,13 @@
 }
 
 #detalhep{
-    margin-right: 20vh;
+    margin-right: 30vh;
     text-align: left;
 }
 
 #detalhep1{
     text-align: left;
-    margin-left: 20vh;
+    margin-left: 30vh;
 
 }
 
@@ -99,7 +99,7 @@
 
 #det{
     object-fit: cover;
-    width: 26vw;
+    width: 30vw;
     height: 40vh;
     border-radius: 2vh;
 }
